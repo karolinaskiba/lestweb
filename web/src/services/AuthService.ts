@@ -4,7 +4,7 @@ import Service from "@/services/Service";
 import { FetchService } from "./FetchService";
 import { IFetchService } from "./interfaces/IFetchService";
 
-import { getUrl } from "common-ts/src/common/url";
+import { getUrl } from "../helpers/common-ts/src/common/url";
 import config from "@/config";
 import { IAuthService } from "./interfaces/IAuthService";
 import { AuthModel } from "@/models/AuthModel";

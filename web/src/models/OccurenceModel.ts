@@ -1,4 +1,4 @@
-import { string2UTC } from "common-ts/src/common/date";
+import { string2UTC } from "../helpers/common-ts/src/common/date";
 
 export class OccurenceModel {
 	id: string;

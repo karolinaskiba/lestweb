@@ -8,7 +8,7 @@ import { IAuthTokenService } from "@/services/interfaces/IAuthTokenService";
 import config from "@/config";
 import { useAuthStore } from "@/stores/authStore";
 import { MeasurementeModel } from "../models/MeasurementModel";
-import { getUrl } from "common-ts/src/common/url";
+import { getUrl } from "../helpers/common-ts/src/common/url";
 
 export class MeasurementService extends Service {
 	public constructor(

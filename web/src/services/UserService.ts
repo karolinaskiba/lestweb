@@ -8,7 +8,7 @@ import { IAuthTokenService } from "@/services/interfaces/IAuthTokenService";
 import config from "@/config";
 import { useAuthStore } from "@/stores/authStore";
 import { UserModel } from "@/models/UserModel";
-import { getUrl } from "common-ts/src/common/url";
+import { getUrl } from "../helpers/common-ts/src/common/url";
 
 import { ResultType } from "@/services/interfaces/ResultType";
 

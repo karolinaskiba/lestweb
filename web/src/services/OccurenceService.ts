@@ -8,7 +8,7 @@ import { IAuthTokenService } from "@/services/interfaces/IAuthTokenService";
 import config from "@/config";
 import { useAuthStore } from "@/stores/authStore";
 import { OccurenceModel } from "@/models/OccurenceModel";
-import { getUrl } from "common-ts/src/common/url";
+import { getUrl } from "../helpers/common-ts/src/common/url";
 import { ResultType } from "./interfaces/ResultType";
 
 export class OccurenceService extends Service {

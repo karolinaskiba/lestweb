@@ -14,7 +14,6 @@
 	},
 	"dependencies": {
 		"@quasar/extras": "^1.0.0",
-		"common-ts": "git+https://nxsa@dev.azure.com/nxsa/NX/_git/Common%20TS#0.3.0",
 		"pinia": "^2.0.11",
 		"quasar": "^2.6.0",
 		"vue": "^3.0.0",
